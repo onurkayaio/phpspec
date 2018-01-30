@@ -1,0 +1,15 @@
+{
+    "name": "onurkaya/phpspec",
+    "authors": [
+        {
+            "name": "Onur Kaya",
+            "email": "onur.kaya@metglobal.com"
+        }
+    ],
+    "require": {
+    	"phpspec/phpspec": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
+    }
+}
