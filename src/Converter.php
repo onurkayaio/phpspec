@@ -27,7 +27,7 @@ class Converter
         $result = 0;
 
         foreach ($romans as $key => $value) {
-            while (strpos($roman, $key) === 0) {
+            while (0 === strpos($roman, $key)) {
                 $result += $value;
                 $roman = substr($roman, strlen($key));
             }
